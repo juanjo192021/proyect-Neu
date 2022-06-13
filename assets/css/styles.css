@@ -1,0 +1,247 @@
+body{
+    /* background-color: #e0bf64; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+
+
+aside {
+    background-color: yellow;
+
+}
+/* section{
+    padding-top: 10px; 
+} */
+
+footer {
+    background-color: lightblue;
+
+}
+
+.divContainerLogo {
+    transition: all 1s;
+    grid-column: 1/2;
+    border-radius: 100px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+#logoHeader{
+    height: 80px;
+    width: 250px;
+}
+
+.divContainerIconos {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 62% 38%;
+}
+
+.divIconos {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.4%;
+    padding-top: 7px;
+}
+
+.divVerCarrito {
+    grid-column: 1/2;
+}
+.divHistorialCompras {
+    grid-column: 2/3;
+}
+.divUsuario{
+    grid-column: 3/4;
+}
+.divVerCarrito, .divHistorialCompras, .divUsuario{
+    transition: all 1s;
+    text-align: center;
+    padding: 36px 0;
+}
+.imgIconos{
+    height: 25px;
+    width: 25px;
+}
+/* #w{
+    background-color: red;
+} */
+.divContainerMenuBuscarClass{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    background-color: #222222;
+    padding: 7px 0;
+    overflow: hidden;
+    transition: all 1s;
+    width: 100%;
+}
+.divContainerMenuBuscar-fixed{
+    /*opacity: 0.1%; */
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    padding: 7px 0;
+}
+.divMenu {
+    grid-column: 1/2;
+}
+.divUl{
+    grid-column: 1/2;
+}
+.ulMenu{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+.liMenu{
+    list-style: none;
+}
+a{
+    color: #c55eb2;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
+.divBuscar {
+    grid-column: 2/3;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.divInputBuscador {
+    padding-top: 13px;
+    grid-column: 1/2;
+}
+
+.inputBuscar {
+    width: 70%;
+    height: 20px;
+    float: right;
+    border: 0;
+    border-radius: 5px;
+
+}
+.divBtnBuscar {
+    padding-top: 11px;
+    text-align: center;
+    grid-column: 2/3;
+}
+#btnBuscar{
+    border: 0;
+    border-radius: 5px;
+    background-color:rgb(197, 94, 178);
+    font-size: 15px;
+    color: #fff;
+    padding: 4px 8px;
+    font-family: 'Nunito', sans-serif;
+}
+#btnBuscar:hover{
+    cursor: pointer;
+}
+.divLabelBtn{
+    margin: 4px 0;
+}
+#labelBuscar {
+    font-size: 15px;
+    padding: 0 13px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+}
+
+.divContainerSeccionBanner{
+    padding: 55px 0;
+    width: 95%;
+    /* max-width:900px; */
+    max-width:100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.seccionImgInicioClass{
+    display: flex;
+    height: 400px;
+    width: 400%;
+    margin-left: -100%;
+}
+
+.divImgBanner{
+    width: 100%;
+}
+
+.divBtnAnt, .divBtnSig{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);    
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.divBtnAnt, .divBtnSig:hover{
+    background-color: #fff;
+}
+.divBtnAnt{
+    left: 10px;
+}
+.divBtnSig{
+    right: 10px;
+}
+.imgBanner{
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    object-fit: cover;
+    object-position: top;
+}
+/* .divContainerProductoOfertas{
+} */
+.divProductos{
+    grid-column: 1/2;
+    background-color: red;
+}
+.mainContainer{
+    display: grid;
+    grid-template-columns: 100%;
+}
+.divTituloProductos{
+    grid-column: 1/2;
+    background-color: aqua;
+}
+.tituloDestacado{
+    font-size: 25px;
+    margin: 10px 0;
+    /* padding: 0 20px; */
+    text-align: center;
+}
+.divContainerProductos{
+    
+    grid-column: 1/2;
+    background-color: green;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.divProductosFila1Izq, .divProductosFila2Izq{
+    grid-column: 1/2;
+}
+.divProductosFila1Der, .divProductosFila2Der{
+    grid-column: 2/3;
+}
+.divOfertas{
+    grid-column: 2/3;
+    background-color: orange;
+}
