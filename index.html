@@ -8,24 +8,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="assets/img/neu_3.ico" type="image/x-icon">
     <title>Neutica</title>
 </head>
 <body>
     <div class="divContainerHeader">
         <header class="containerHeader">
             <div class="divContainerLogo">
-                <img id="logoHeader" src="assets/img/neu_4.png" alt="logo_Neutica"> 
+                <a href="https://google.com" target="_blank">
+                    <img id="logoHeader" src="assets/img/neu_4.png" alt="logo_Neutica">
+                </a>
             </div>
             <div class="divContainerIconos">
                 <div class="divIconos">
                     <div class="divVerCarrito">
-                        <img class="imgIconos" src="assets/img/carrito-de-compras.png" alt="">
+                        <a href="https://google.com" target="_blank">
+                            <img class="imgIconos" src="assets/img/carrito-de-compras.png" alt="">
+                        </a>
                     </div>
                     <div class="divHistorialCompras">
-                        <img class="imgIconos" src="assets/img/historia.png" alt="">
+                        <a href="https://google.com" target="_blank">
+                            <img class="imgIconos" src="assets/img/historia.png" alt="">
+                        </a>
                     </div>
                     <div class="divUsuario">
-                        <img class="imgIconos" src="assets/img/usuario-de-perfil.png" alt="">
+                        <a id="linkUsuarioId">
+                            <img class="imgIconos" id="imgIconosId" src="assets/img/usuario-de-perfil.png" alt="">
+                        </a>
+                        <div class="divIniRegisClass" id="divIniRegisId" >
+                            <ul class="ulIniRegisClass">
+                                <li class="liIniRegisClass">
+                                    Iniciar Sesión
+                                </li>
+                                <li class="liIniRegisClass">
+                                    Registrarse
+                                </li>
+                            </ul>
+                        </div>
                         <!-- <div id="w">
                             <ul>
                                 <li>Registrate</li>
@@ -41,27 +60,41 @@
         <div class="divMenu" >
             <div class="divUl">
                 <ul class="ulMenu">
-                    <li class="liMenu">
-                        <a href="http://">Home</a>
-                    </li>
-                    <li class="liMenu">
-                        <a href="http://">About</a>
-                    </li>
-                    <li class="liMenu">
-                        <a href="http://">Products</a>
-                    </li>
-                    <li class="liMenu">
-                        <a href="http://">Blog</a>
-                    </li>
-                    <li class="liMenu">
-                        <a href="http://">News</a>
-                    </li>
-                    <li class="liMenu">
-                        <a href="http://">Soporte</a>
-                    </li>
-                    <li class="liMenu">
-                        <a href="http://">Contact</a>
-                    </li>
+                    <div class="divLiCLass" id="divLiInicio">
+                        <li class="liMenu">
+                            <a class="linkMenu" href="http://">Inicio</a>
+                        </li>
+                    </div>
+                    <div class="divLiCLass" id="divLiNosotros">
+                        <li class="liMenu">
+                            <a class="linkMenu" href="http://">Sobre nosotros</a>
+                        </li>
+                    </div>
+                    <div class="divLiCLass" id="divLiProductos">
+                        <li class="liMenu">
+                            <a class="linkMenu" href="http://">Podructos</a>
+                        </li>
+                    </div>
+                    <div class="divLiCLass" id="divLiBlog">
+                        <li class="liMenu">
+                            <a class="linkMenu" href="http://">Blog</a>
+                        </li>
+                    </div>
+                    <div class="divLiCLass" id="divLiOfertas">
+                        <li class="liMenu">
+                            <a class="linkMenu" href="http://">Ofertas</a>
+                        </li>
+                    </div>
+                    <div class="divLiCLass" id="divLiSoporte">
+                        <li class="liMenu">
+                            <a class="linkMenu" href="http://">Soporte</a>
+                        </li>
+                    </div>
+                    <div class="divLiCLass"id="divLiContacto">
+                        <li class="liMenu">
+                            <a class="linkMenu" href="http://">Contacto</a>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </div>
@@ -127,7 +160,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos, eveniet corrupti molestiae quod, vero animi excepturi, quae nisi illum earum officiis consequuntur? Placeat itaque harum nam! Eaque cupiditate quae architecto?</p>
         </section>
     </div>
-    <div class="divContainerProductoOfertas">
+    <div class="divContainerProductos">
         <div class="divProductos">
             <main class="mainContainer">
                 <div class="divTituloProductos">
@@ -157,7 +190,7 @@
     </div>
     <footer>
         <h1>BBB</h1>
-    </footer>
+    </footer> 
     <script src="assets/js/app.js"></script>
 </body>
 </html>
